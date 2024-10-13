@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Maps Integration</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmUoMGb3kvB9nHWQS4bPf-QS_MjWNvKkY"></script>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Google Maps Integration</h1>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            const vnit = { lat: 21.1232, lng: 79.0515 }; // Set coordinates for VNIT
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: vnit,
+            });
+            const marker = new google.maps.Marker({
+                position: vnit,
+                map: map,
+                title: "VNIT",
+            });
+        }
+
+        // Initialize the map
+        window.onload = initMap;
+    </script>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Google Maps Integration</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmUoMGb3kvB9nHWQS4bPf-QS_MjWNvKkY"></script>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Google Maps Integration</h1>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            const vnit = { lat: 21.1232, lng: 79.0515 }; // Set coordinates for VNIT
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: vnit,
+            });
+            const marker = new google.maps.Marker({
+                position: vnit,
+                map: map,
+                title: "VNIT",
+            });
+        }
+
+        // Initialize the map
+        window.onload = initMap;
+    </script>
+</body>
+</html>
